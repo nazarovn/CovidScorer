@@ -6,4 +6,5 @@
 `npm start`
 
 ### Screenshots
-![alt text][https://github.com/nazarovn/CovidScorer/blob/master/screenshots/coronavirus.photo.main.png]
+![coronavirus.photo.main](screenshots/coronavirus.photo.main.png)
+![coronavirus.photo.contacnts](screenshots/coronavirus.photo.contacnts.png)
