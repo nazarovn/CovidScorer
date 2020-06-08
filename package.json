@@ -1,0 +1,49 @@
+{
+  "name": "covid_map_frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "formik": "^2.1.4",
+    "leaflet": "^1.6.0",
+    "lodash": "^4.17.15",
+    "lodash.map": "^4.6.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-leaflet": "^2.7.0",
+    "react-map-gl": "^5.2.5",
+    "react-player": "^2.0.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "react-scrollbar": "^0.5.6",
+    "reactstrap": "^8.4.1",
+    "redux": "^4.0.5",
+    "video-react": "^0.14.1"
+  },
+  "scripts": {
+    "start": "PORT=9001 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "rsync -avzhe ssh --progress ./build/* /var/www/covid_map_nginx"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
